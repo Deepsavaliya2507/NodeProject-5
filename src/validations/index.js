@@ -1,1 +1,2 @@
-module.exports.mobileValidation = require("./mobile.Validation");
+module.exports.userValidation = require("./user.validation");
+module.exports.tokenValidation = require("./token.validation");

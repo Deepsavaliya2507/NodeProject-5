@@ -1,1 +1,2 @@
-module.exports.mobileService = require("./mobile.service");
+module.exports.userService = require("./user.service");
+module.exports.tokenService = require("./token.service");

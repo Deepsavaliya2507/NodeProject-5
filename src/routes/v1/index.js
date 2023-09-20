@@ -1,8 +1,10 @@
 const express = require("express");
-const mobileRoute = require("./mobile.route");
+const tokenRoutes = require("./token.route");
+const userRoute = require("./user.route");
 
 const router = express.Router();
 
-router.use("/mobile", mobileRoute);
+router.use("/token", tokenRoutes);
+router.use("/user", userRoute);
 
 module.exports = router;

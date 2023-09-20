@@ -4,7 +4,7 @@ const cors = require("cors");
 const http = require("http");
 const { connectDB } = require("./db/dbConnection");
 const routes = require("./routes/v1");
-require("./heplers/crons");
+// require("./helpers/crons");
 const config = require("./config/config");
 
 const app = express();
